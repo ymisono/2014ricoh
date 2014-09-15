@@ -23,6 +23,7 @@
 ####クラウドサーバー
 #####実行までの手順
  1. ruby、mysqlをインストールする。
+ 2. ruby-mysqlをインストールする（"gem install ruby-mysql"）。
  2. mysqlで"ricoh_client"というユーザー名を作成し、パスワードを"pass1234"と登録する。
  3. mysqlで"ricoh"というデータベースを作成し、"test_table"というテーブルを作成する。
 #####ソフトの使い方
