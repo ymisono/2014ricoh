@@ -4,7 +4,7 @@ require 'mysql'
 require 'json'
 
 server = TCPServer.new(23627)
-db = Mysql.connect('localhost','ricoh_client','akioohba','ricoh')
+db = Mysql.connect('localhost','ricoh_client','pass1234','ricoh')
 stmt = db.prepare('INSERT INTO test_table (subject,sendername) VALUES(?,?)')
 
 loop do
